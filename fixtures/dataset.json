@@ -1,0 +1,1494 @@
+{
+  "generation": "domain-3-v1",
+  "tables": {
+    "pulses": [
+      {
+        "pulse_id": "p0-0-0",
+        "station_id": "s0",
+        "start": "2025-06-01T12:00:00+00:00",
+        "end": "2025-06-01T13:00:00+00:00",
+        "rain_mm": 11.39,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p0-0-1",
+        "station_id": "s0",
+        "start": "2025-06-01T15:00:00+00:00",
+        "end": "2025-06-01T16:00:00+00:00",
+        "rain_mm": 4.94,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p0-1-0",
+        "station_id": "s1",
+        "start": "2025-06-01T12:07:00+00:00",
+        "end": "2025-06-01T13:07:00+00:00",
+        "rain_mm": 2.64,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p0-1-1",
+        "station_id": "s1",
+        "start": "2025-06-01T15:07:00+00:00",
+        "end": "2025-06-01T16:07:00+00:00",
+        "rain_mm": 5.34,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p0-2-0",
+        "station_id": "s2",
+        "start": "2025-06-01T12:14:00+00:00",
+        "end": "2025-06-01T13:14:00+00:00",
+        "rain_mm": 9.22,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p0-2-1",
+        "station_id": "s2",
+        "start": "2025-06-01T15:14:00+00:00",
+        "end": "2025-06-01T16:14:00+00:00",
+        "rain_mm": 3.2,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p0-3-0",
+        "station_id": "s3",
+        "start": "2025-06-01T12:21:00+00:00",
+        "end": "2025-06-01T13:21:00+00:00",
+        "rain_mm": 9.86,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p0-3-1",
+        "station_id": "s3",
+        "start": "2025-06-01T15:21:00+00:00",
+        "end": "2025-06-01T16:21:00+00:00",
+        "rain_mm": 1.46,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p1-0-0",
+        "station_id": "s0",
+        "start": "2025-06-04T12:00:00+00:00",
+        "end": "2025-06-04T13:00:00+00:00",
+        "rain_mm": 10.55,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p1-0-1",
+        "station_id": "s0",
+        "start": "2025-06-04T15:00:00+00:00",
+        "end": "2025-06-04T16:00:00+00:00",
+        "rain_mm": 1.63,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p1-1-0",
+        "station_id": "s1",
+        "start": "2025-06-04T12:07:00+00:00",
+        "end": "2025-06-04T13:07:00+00:00",
+        "rain_mm": 1.58,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p1-1-1",
+        "station_id": "s1",
+        "start": "2025-06-04T15:07:00+00:00",
+        "end": "2025-06-04T16:07:00+00:00",
+        "rain_mm": 9.76,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p1-2-0",
+        "station_id": "s2",
+        "start": "2025-06-04T12:14:00+00:00",
+        "end": "2025-06-04T13:14:00+00:00",
+        "rain_mm": 10.77,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p1-2-1",
+        "station_id": "s2",
+        "start": "2025-06-04T15:14:00+00:00",
+        "end": "2025-06-04T16:14:00+00:00",
+        "rain_mm": 8.87,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p1-3-0",
+        "station_id": "s3",
+        "start": "2025-06-04T12:21:00+00:00",
+        "end": "2025-06-04T13:21:00+00:00",
+        "rain_mm": 11.43,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p1-3-1",
+        "station_id": "s3",
+        "start": "2025-06-04T15:21:00+00:00",
+        "end": "2025-06-04T16:21:00+00:00",
+        "rain_mm": 3.72,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p2-0-0",
+        "station_id": "s0",
+        "start": "2025-06-07T12:00:00+00:00",
+        "end": "2025-06-07T13:00:00+00:00",
+        "rain_mm": 1.29,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p2-0-1",
+        "station_id": "s0",
+        "start": "2025-06-07T15:00:00+00:00",
+        "end": "2025-06-07T16:00:00+00:00",
+        "rain_mm": 2.71,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p2-1-0",
+        "station_id": "s1",
+        "start": "2025-06-07T12:07:00+00:00",
+        "end": "2025-06-07T13:07:00+00:00",
+        "rain_mm": 10.64,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p2-1-1",
+        "station_id": "s1",
+        "start": "2025-06-07T15:07:00+00:00",
+        "end": "2025-06-07T16:07:00+00:00",
+        "rain_mm": 8.98,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p2-2-0",
+        "station_id": "s2",
+        "start": "2025-06-07T12:14:00+00:00",
+        "end": "2025-06-07T13:14:00+00:00",
+        "rain_mm": 9.89,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p2-2-1",
+        "station_id": "s2",
+        "start": "2025-06-07T15:14:00+00:00",
+        "end": "2025-06-07T16:14:00+00:00",
+        "rain_mm": 9.98,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p2-3-0",
+        "station_id": "s3",
+        "start": "2025-06-07T12:21:00+00:00",
+        "end": "2025-06-07T13:21:00+00:00",
+        "rain_mm": 7.45,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p2-3-1",
+        "station_id": "s3",
+        "start": "2025-06-07T15:21:00+00:00",
+        "end": "2025-06-07T16:21:00+00:00",
+        "rain_mm": 8.29,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p3-0-0",
+        "station_id": "s0",
+        "start": "2025-06-10T12:00:00+00:00",
+        "end": "2025-06-10T13:00:00+00:00",
+        "rain_mm": 7.13,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p3-0-1",
+        "station_id": "s0",
+        "start": "2025-06-10T15:00:00+00:00",
+        "end": "2025-06-10T16:00:00+00:00",
+        "rain_mm": 6.55,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p3-1-0",
+        "station_id": "s1",
+        "start": "2025-06-10T12:07:00+00:00",
+        "end": "2025-06-10T13:07:00+00:00",
+        "rain_mm": 2.76,
+        "time_error_minutes": 2,
+        "quality": "suspect"
+      },
+      {
+        "pulse_id": "p3-1-1",
+        "station_id": "s1",
+        "start": "2025-06-10T15:07:00+00:00",
+        "end": "2025-06-10T16:07:00+00:00",
+        "rain_mm": 4.93,
+        "time_error_minutes": 2,
+        "quality": "suspect"
+      },
+      {
+        "pulse_id": "p3-2-0",
+        "station_id": "s2",
+        "start": "2025-06-10T12:14:00+00:00",
+        "end": "2025-06-10T13:14:00+00:00",
+        "rain_mm": 3.14,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p3-2-1",
+        "station_id": "s2",
+        "start": "2025-06-10T15:14:00+00:00",
+        "end": "2025-06-10T16:14:00+00:00",
+        "rain_mm": 7.46,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p3-3-0",
+        "station_id": "s3",
+        "start": "2025-06-10T12:21:00+00:00",
+        "end": "2025-06-10T13:21:00+00:00",
+        "rain_mm": 5.32,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p3-3-1",
+        "station_id": "s3",
+        "start": "2025-06-10T15:21:00+00:00",
+        "end": "2025-06-10T16:21:00+00:00",
+        "rain_mm": 6.11,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p4-0-0",
+        "station_id": "s0",
+        "start": "2025-06-13T12:00:00+00:00",
+        "end": "2025-06-13T13:00:00+00:00",
+        "rain_mm": 8.86,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p4-0-1",
+        "station_id": "s0",
+        "start": "2025-06-13T15:00:00+00:00",
+        "end": "2025-06-13T16:00:00+00:00",
+        "rain_mm": 11.98,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p4-1-0",
+        "station_id": "s1",
+        "start": "2025-06-13T12:07:00+00:00",
+        "end": "2025-06-13T13:07:00+00:00",
+        "rain_mm": 1.53,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p4-1-1",
+        "station_id": "s1",
+        "start": "2025-06-13T15:07:00+00:00",
+        "end": "2025-06-13T16:07:00+00:00",
+        "rain_mm": 2.51,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p4-2-0",
+        "station_id": "s2",
+        "start": "2025-06-13T12:14:00+00:00",
+        "end": "2025-06-13T13:14:00+00:00",
+        "rain_mm": 2.51,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p4-2-1",
+        "station_id": "s2",
+        "start": "2025-06-13T15:14:00+00:00",
+        "end": "2025-06-13T16:14:00+00:00",
+        "rain_mm": 9.86,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p4-3-0",
+        "station_id": "s3",
+        "start": "2025-06-13T12:21:00+00:00",
+        "end": "2025-06-13T13:21:00+00:00",
+        "rain_mm": 7.66,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p4-3-1",
+        "station_id": "s3",
+        "start": "2025-06-13T15:21:00+00:00",
+        "end": "2025-06-13T16:21:00+00:00",
+        "rain_mm": 3.01,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p5-0-0",
+        "station_id": "s0",
+        "start": "2025-06-16T12:00:00+00:00",
+        "end": "2025-06-16T13:00:00+00:00",
+        "rain_mm": 9.0,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p5-0-1",
+        "station_id": "s0",
+        "start": "2025-06-16T15:00:00+00:00",
+        "end": "2025-06-16T16:00:00+00:00",
+        "rain_mm": 4.66,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p5-1-0",
+        "station_id": "s1",
+        "start": "2025-06-16T12:07:00+00:00",
+        "end": "2025-06-16T13:07:00+00:00",
+        "rain_mm": 8.66,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p5-1-1",
+        "station_id": "s1",
+        "start": "2025-06-16T15:07:00+00:00",
+        "end": "2025-06-16T16:07:00+00:00",
+        "rain_mm": 3.16,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p5-2-0",
+        "station_id": "s2",
+        "start": "2025-06-16T12:14:00+00:00",
+        "end": "2025-06-16T13:14:00+00:00",
+        "rain_mm": 8.32,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p5-2-1",
+        "station_id": "s2",
+        "start": "2025-06-16T15:14:00+00:00",
+        "end": "2025-06-16T16:14:00+00:00",
+        "rain_mm": 5.29,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p5-3-0",
+        "station_id": "s3",
+        "start": "2025-06-16T12:21:00+00:00",
+        "end": "2025-06-16T13:21:00+00:00",
+        "rain_mm": 11.43,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p5-3-1",
+        "station_id": "s3",
+        "start": "2025-06-16T15:21:00+00:00",
+        "end": "2025-06-16T16:21:00+00:00",
+        "rain_mm": 5.42,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p6-0-0",
+        "station_id": "s0",
+        "start": "2025-06-19T12:00:00+00:00",
+        "end": "2025-06-19T13:00:00+00:00",
+        "rain_mm": 2.11,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p6-0-1",
+        "station_id": "s0",
+        "start": "2025-06-19T15:00:00+00:00",
+        "end": "2025-06-19T16:00:00+00:00",
+        "rain_mm": 11.06,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p6-1-0",
+        "station_id": "s1",
+        "start": "2025-06-19T12:07:00+00:00",
+        "end": "2025-06-19T13:07:00+00:00",
+        "rain_mm": 2.18,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p6-1-1",
+        "station_id": "s1",
+        "start": "2025-06-19T15:07:00+00:00",
+        "end": "2025-06-19T16:07:00+00:00",
+        "rain_mm": 10.61,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p6-2-0",
+        "station_id": "s2",
+        "start": "2025-06-19T12:14:00+00:00",
+        "end": "2025-06-19T13:14:00+00:00",
+        "rain_mm": 8.53,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p6-2-1",
+        "station_id": "s2",
+        "start": "2025-06-19T15:14:00+00:00",
+        "end": "2025-06-19T16:14:00+00:00",
+        "rain_mm": 4.83,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p6-3-0",
+        "station_id": "s3",
+        "start": "2025-06-19T12:21:00+00:00",
+        "end": "2025-06-19T13:21:00+00:00",
+        "rain_mm": 11.54,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p6-3-1",
+        "station_id": "s3",
+        "start": "2025-06-19T15:21:00+00:00",
+        "end": "2025-06-19T16:21:00+00:00",
+        "rain_mm": 8.3,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p7-0-0",
+        "station_id": "s0",
+        "start": "2025-06-22T12:00:00+00:00",
+        "end": "2025-06-22T13:00:00+00:00",
+        "rain_mm": 4.16,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p7-0-1",
+        "station_id": "s0",
+        "start": "2025-06-22T15:00:00+00:00",
+        "end": "2025-06-22T16:00:00+00:00",
+        "rain_mm": 2.59,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p7-1-0",
+        "station_id": "s1",
+        "start": "2025-06-22T12:07:00+00:00",
+        "end": "2025-06-22T13:07:00+00:00",
+        "rain_mm": 2.9,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p7-1-1",
+        "station_id": "s1",
+        "start": "2025-06-22T15:07:00+00:00",
+        "end": "2025-06-22T16:07:00+00:00",
+        "rain_mm": 1.51,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p7-2-0",
+        "station_id": "s2",
+        "start": "2025-06-22T12:14:00+00:00",
+        "end": "2025-06-22T13:14:00+00:00",
+        "rain_mm": 11.35,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p7-2-1",
+        "station_id": "s2",
+        "start": "2025-06-22T15:14:00+00:00",
+        "end": "2025-06-22T16:14:00+00:00",
+        "rain_mm": 6.14,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p7-3-0",
+        "station_id": "s3",
+        "start": "2025-06-22T12:21:00+00:00",
+        "end": "2025-06-22T13:21:00+00:00",
+        "rain_mm": 4.23,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p7-3-1",
+        "station_id": "s3",
+        "start": "2025-06-22T15:21:00+00:00",
+        "end": "2025-06-22T16:21:00+00:00",
+        "rain_mm": 4.72,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p8-0-0",
+        "station_id": "s0",
+        "start": "2025-06-25T12:00:00+00:00",
+        "end": "2025-06-25T13:00:00+00:00",
+        "rain_mm": 9.98,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p8-0-1",
+        "station_id": "s0",
+        "start": "2025-06-25T15:00:00+00:00",
+        "end": "2025-06-25T16:00:00+00:00",
+        "rain_mm": 11.84,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p8-1-0",
+        "station_id": "s1",
+        "start": "2025-06-25T12:07:00+00:00",
+        "end": "2025-06-25T13:07:00+00:00",
+        "rain_mm": 11.37,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p8-1-1",
+        "station_id": "s1",
+        "start": "2025-06-25T15:07:00+00:00",
+        "end": "2025-06-25T16:07:00+00:00",
+        "rain_mm": 5.44,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p8-2-0",
+        "station_id": "s2",
+        "start": "2025-06-25T12:14:00+00:00",
+        "end": "2025-06-25T13:14:00+00:00",
+        "rain_mm": 8.21,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p8-2-1",
+        "station_id": "s2",
+        "start": "2025-06-25T15:14:00+00:00",
+        "end": "2025-06-25T16:14:00+00:00",
+        "rain_mm": 2.04,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p8-3-0",
+        "station_id": "s3",
+        "start": "2025-06-25T12:21:00+00:00",
+        "end": "2025-06-25T13:21:00+00:00",
+        "rain_mm": 8.46,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p8-3-1",
+        "station_id": "s3",
+        "start": "2025-06-25T15:21:00+00:00",
+        "end": "2025-06-25T16:21:00+00:00",
+        "rain_mm": 11.75,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p9-0-0",
+        "station_id": "s0",
+        "start": "2025-06-28T12:00:00+00:00",
+        "end": "2025-06-28T13:00:00+00:00",
+        "rain_mm": 10.74,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p9-0-1",
+        "station_id": "s0",
+        "start": "2025-06-28T15:00:00+00:00",
+        "end": "2025-06-28T16:00:00+00:00",
+        "rain_mm": 10.03,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p9-1-0",
+        "station_id": "s1",
+        "start": "2025-06-28T12:07:00+00:00",
+        "end": "2025-06-28T13:07:00+00:00",
+        "rain_mm": 2.18,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p9-1-1",
+        "station_id": "s1",
+        "start": "2025-06-28T15:07:00+00:00",
+        "end": "2025-06-28T16:07:00+00:00",
+        "rain_mm": 3.72,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p9-2-0",
+        "station_id": "s2",
+        "start": "2025-06-28T12:14:00+00:00",
+        "end": "2025-06-28T13:14:00+00:00",
+        "rain_mm": 3.07,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p9-2-1",
+        "station_id": "s2",
+        "start": "2025-06-28T15:14:00+00:00",
+        "end": "2025-06-28T16:14:00+00:00",
+        "rain_mm": 2.7,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p9-3-0",
+        "station_id": "s3",
+        "start": "2025-06-28T12:21:00+00:00",
+        "end": "2025-06-28T13:21:00+00:00",
+        "rain_mm": 11.36,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p9-3-1",
+        "station_id": "s3",
+        "start": "2025-06-28T15:21:00+00:00",
+        "end": "2025-06-28T16:21:00+00:00",
+        "rain_mm": 9.66,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p10-0-0",
+        "station_id": "s0",
+        "start": "2025-07-01T12:00:00+00:00",
+        "end": "2025-07-01T13:00:00+00:00",
+        "rain_mm": 1.26,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p10-0-1",
+        "station_id": "s0",
+        "start": "2025-07-01T15:00:00+00:00",
+        "end": "2025-07-01T16:00:00+00:00",
+        "rain_mm": 3.4,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p10-1-0",
+        "station_id": "s1",
+        "start": "2025-07-01T12:07:00+00:00",
+        "end": "2025-07-01T13:07:00+00:00",
+        "rain_mm": 5.09,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p10-1-1",
+        "station_id": "s1",
+        "start": "2025-07-01T15:07:00+00:00",
+        "end": "2025-07-01T16:07:00+00:00",
+        "rain_mm": 2.42,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p10-2-0",
+        "station_id": "s2",
+        "start": "2025-07-01T12:14:00+00:00",
+        "end": "2025-07-01T13:14:00+00:00",
+        "rain_mm": 8.0,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p10-2-1",
+        "station_id": "s2",
+        "start": "2025-07-01T15:14:00+00:00",
+        "end": "2025-07-01T16:14:00+00:00",
+        "rain_mm": 3.39,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p10-3-0",
+        "station_id": "s3",
+        "start": "2025-07-01T12:21:00+00:00",
+        "end": "2025-07-01T13:21:00+00:00",
+        "rain_mm": 5.51,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p10-3-1",
+        "station_id": "s3",
+        "start": "2025-07-01T15:21:00+00:00",
+        "end": "2025-07-01T16:21:00+00:00",
+        "rain_mm": 1.14,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p11-0-0",
+        "station_id": "s0",
+        "start": "2025-07-04T12:00:00+00:00",
+        "end": "2025-07-04T13:00:00+00:00",
+        "rain_mm": 1.33,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p11-0-1",
+        "station_id": "s0",
+        "start": "2025-07-04T15:00:00+00:00",
+        "end": "2025-07-04T16:00:00+00:00",
+        "rain_mm": 2.66,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p11-1-0",
+        "station_id": "s1",
+        "start": "2025-07-04T12:07:00+00:00",
+        "end": "2025-07-04T13:07:00+00:00",
+        "rain_mm": 9.96,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p11-1-1",
+        "station_id": "s1",
+        "start": "2025-07-04T15:07:00+00:00",
+        "end": "2025-07-04T16:07:00+00:00",
+        "rain_mm": 7.33,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p11-2-0",
+        "station_id": "s2",
+        "start": "2025-07-04T12:14:00+00:00",
+        "end": "2025-07-04T13:14:00+00:00",
+        "rain_mm": 12.0,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p11-2-1",
+        "station_id": "s2",
+        "start": "2025-07-04T15:14:00+00:00",
+        "end": "2025-07-04T16:14:00+00:00",
+        "rain_mm": 2.56,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p11-3-0",
+        "station_id": "s3",
+        "start": "2025-07-04T12:21:00+00:00",
+        "end": "2025-07-04T13:21:00+00:00",
+        "rain_mm": 1.18,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p11-3-1",
+        "station_id": "s3",
+        "start": "2025-07-04T15:21:00+00:00",
+        "end": "2025-07-04T16:21:00+00:00",
+        "rain_mm": 3.01,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p12-0-0",
+        "station_id": "s0",
+        "start": "2025-07-07T12:00:00+00:00",
+        "end": "2025-07-07T13:00:00+00:00",
+        "rain_mm": 3.16,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p12-0-1",
+        "station_id": "s0",
+        "start": "2025-07-07T15:00:00+00:00",
+        "end": "2025-07-07T16:00:00+00:00",
+        "rain_mm": 10.34,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p12-1-0",
+        "station_id": "s1",
+        "start": "2025-07-07T12:07:00+00:00",
+        "end": "2025-07-07T13:07:00+00:00",
+        "rain_mm": 10.55,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p12-1-1",
+        "station_id": "s1",
+        "start": "2025-07-07T15:07:00+00:00",
+        "end": "2025-07-07T16:07:00+00:00",
+        "rain_mm": 3.82,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p12-2-0",
+        "station_id": "s2",
+        "start": "2025-07-07T12:14:00+00:00",
+        "end": "2025-07-07T13:14:00+00:00",
+        "rain_mm": 4.5,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p12-2-1",
+        "station_id": "s2",
+        "start": "2025-07-07T15:14:00+00:00",
+        "end": "2025-07-07T16:14:00+00:00",
+        "rain_mm": 5.57,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p12-3-0",
+        "station_id": "s3",
+        "start": "2025-07-07T12:21:00+00:00",
+        "end": "2025-07-07T13:21:00+00:00",
+        "rain_mm": 4.47,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p12-3-1",
+        "station_id": "s3",
+        "start": "2025-07-07T15:21:00+00:00",
+        "end": "2025-07-07T16:21:00+00:00",
+        "rain_mm": 8.92,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p13-0-0",
+        "station_id": "s0",
+        "start": "2025-07-10T12:00:00+00:00",
+        "end": "2025-07-10T13:00:00+00:00",
+        "rain_mm": 7.44,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p13-0-1",
+        "station_id": "s0",
+        "start": "2025-07-10T15:00:00+00:00",
+        "end": "2025-07-10T16:00:00+00:00",
+        "rain_mm": 8.98,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p13-1-0",
+        "station_id": "s1",
+        "start": "2025-07-10T12:07:00+00:00",
+        "end": "2025-07-10T13:07:00+00:00",
+        "rain_mm": 9.26,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p13-1-1",
+        "station_id": "s1",
+        "start": "2025-07-10T15:07:00+00:00",
+        "end": "2025-07-10T16:07:00+00:00",
+        "rain_mm": 1.89,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p13-2-0",
+        "station_id": "s2",
+        "start": "2025-07-10T12:14:00+00:00",
+        "end": "2025-07-10T13:14:00+00:00",
+        "rain_mm": 11.44,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p13-2-1",
+        "station_id": "s2",
+        "start": "2025-07-10T15:14:00+00:00",
+        "end": "2025-07-10T16:14:00+00:00",
+        "rain_mm": 11.35,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p13-3-0",
+        "station_id": "s3",
+        "start": "2025-07-10T12:21:00+00:00",
+        "end": "2025-07-10T13:21:00+00:00",
+        "rain_mm": 3.96,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p13-3-1",
+        "station_id": "s3",
+        "start": "2025-07-10T15:21:00+00:00",
+        "end": "2025-07-10T16:21:00+00:00",
+        "rain_mm": 7.98,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p14-0-0",
+        "station_id": "s0",
+        "start": "2025-07-13T12:00:00+00:00",
+        "end": "2025-07-13T13:00:00+00:00",
+        "rain_mm": 10.63,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p14-0-1",
+        "station_id": "s0",
+        "start": "2025-07-13T15:00:00+00:00",
+        "end": "2025-07-13T16:00:00+00:00",
+        "rain_mm": 9.6,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p14-1-0",
+        "station_id": "s1",
+        "start": "2025-07-13T12:07:00+00:00",
+        "end": "2025-07-13T13:07:00+00:00",
+        "rain_mm": 11.55,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p14-1-1",
+        "station_id": "s1",
+        "start": "2025-07-13T15:07:00+00:00",
+        "end": "2025-07-13T16:07:00+00:00",
+        "rain_mm": 3.76,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p14-2-0",
+        "station_id": "s2",
+        "start": "2025-07-13T12:14:00+00:00",
+        "end": "2025-07-13T13:14:00+00:00",
+        "rain_mm": 4.0,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p14-2-1",
+        "station_id": "s2",
+        "start": "2025-07-13T15:14:00+00:00",
+        "end": "2025-07-13T16:14:00+00:00",
+        "rain_mm": 9.79,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p14-3-0",
+        "station_id": "s3",
+        "start": "2025-07-13T12:21:00+00:00",
+        "end": "2025-07-13T13:21:00+00:00",
+        "rain_mm": 4.73,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p14-3-1",
+        "station_id": "s3",
+        "start": "2025-07-13T15:21:00+00:00",
+        "end": "2025-07-13T16:21:00+00:00",
+        "rain_mm": 10.85,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p15-0-0",
+        "station_id": "s0",
+        "start": "2025-07-16T12:00:00+00:00",
+        "end": "2025-07-16T13:00:00+00:00",
+        "rain_mm": 11.78,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p15-0-1",
+        "station_id": "s0",
+        "start": "2025-07-16T15:00:00+00:00",
+        "end": "2025-07-16T16:00:00+00:00",
+        "rain_mm": 11.72,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p15-1-0",
+        "station_id": "s1",
+        "start": "2025-07-16T12:07:00+00:00",
+        "end": "2025-07-16T13:07:00+00:00",
+        "rain_mm": 8.86,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p15-1-1",
+        "station_id": "s1",
+        "start": "2025-07-16T15:07:00+00:00",
+        "end": "2025-07-16T16:07:00+00:00",
+        "rain_mm": 1.53,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p15-2-0",
+        "station_id": "s2",
+        "start": "2025-07-16T12:14:00+00:00",
+        "end": "2025-07-16T13:14:00+00:00",
+        "rain_mm": 5.3,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p15-2-1",
+        "station_id": "s2",
+        "start": "2025-07-16T15:14:00+00:00",
+        "end": "2025-07-16T16:14:00+00:00",
+        "rain_mm": 9.3,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p15-3-0",
+        "station_id": "s3",
+        "start": "2025-07-16T12:21:00+00:00",
+        "end": "2025-07-16T13:21:00+00:00",
+        "rain_mm": 3.12,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p15-3-1",
+        "station_id": "s3",
+        "start": "2025-07-16T15:21:00+00:00",
+        "end": "2025-07-16T16:21:00+00:00",
+        "rain_mm": 3.19,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p16-0-0",
+        "station_id": "s0",
+        "start": "2025-07-19T12:00:00+00:00",
+        "end": "2025-07-19T13:00:00+00:00",
+        "rain_mm": 5.55,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p16-0-1",
+        "station_id": "s0",
+        "start": "2025-07-19T15:00:00+00:00",
+        "end": "2025-07-19T16:00:00+00:00",
+        "rain_mm": 1.68,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p16-1-0",
+        "station_id": "s1",
+        "start": "2025-07-19T12:07:00+00:00",
+        "end": "2025-07-19T13:07:00+00:00",
+        "rain_mm": 7.21,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p16-1-1",
+        "station_id": "s1",
+        "start": "2025-07-19T15:07:00+00:00",
+        "end": "2025-07-19T16:07:00+00:00",
+        "rain_mm": 1.97,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p16-2-0",
+        "station_id": "s2",
+        "start": "2025-07-19T12:14:00+00:00",
+        "end": "2025-07-19T13:14:00+00:00",
+        "rain_mm": 1.01,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p16-2-1",
+        "station_id": "s2",
+        "start": "2025-07-19T15:14:00+00:00",
+        "end": "2025-07-19T16:14:00+00:00",
+        "rain_mm": 10.48,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p16-3-0",
+        "station_id": "s3",
+        "start": "2025-07-19T12:21:00+00:00",
+        "end": "2025-07-19T13:21:00+00:00",
+        "rain_mm": 11.03,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p16-3-1",
+        "station_id": "s3",
+        "start": "2025-07-19T15:21:00+00:00",
+        "end": "2025-07-19T16:21:00+00:00",
+        "rain_mm": 8.6,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p17-0-0",
+        "station_id": "s0",
+        "start": "2025-07-22T12:00:00+00:00",
+        "end": "2025-07-22T13:00:00+00:00",
+        "rain_mm": 9.58,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p17-0-1",
+        "station_id": "s0",
+        "start": "2025-07-22T15:00:00+00:00",
+        "end": "2025-07-22T16:00:00+00:00",
+        "rain_mm": 1.56,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p17-1-0",
+        "station_id": "s1",
+        "start": "2025-07-22T12:07:00+00:00",
+        "end": "2025-07-22T13:07:00+00:00",
+        "rain_mm": 11.73,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p17-1-1",
+        "station_id": "s1",
+        "start": "2025-07-22T15:07:00+00:00",
+        "end": "2025-07-22T16:07:00+00:00",
+        "rain_mm": 3.45,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p17-2-0",
+        "station_id": "s2",
+        "start": "2025-07-22T12:14:00+00:00",
+        "end": "2025-07-22T13:14:00+00:00",
+        "rain_mm": 2.5,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p17-2-1",
+        "station_id": "s2",
+        "start": "2025-07-22T15:14:00+00:00",
+        "end": "2025-07-22T16:14:00+00:00",
+        "rain_mm": 6.53,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p17-3-0",
+        "station_id": "s3",
+        "start": "2025-07-22T12:21:00+00:00",
+        "end": "2025-07-22T13:21:00+00:00",
+        "rain_mm": 9.74,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p17-3-1",
+        "station_id": "s3",
+        "start": "2025-07-22T15:21:00+00:00",
+        "end": "2025-07-22T16:21:00+00:00",
+        "rain_mm": 3.06,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p18-0-0",
+        "station_id": "s0",
+        "start": "2025-07-25T12:00:00+00:00",
+        "end": "2025-07-25T13:00:00+00:00",
+        "rain_mm": 2.78,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p18-0-1",
+        "station_id": "s0",
+        "start": "2025-07-25T15:00:00+00:00",
+        "end": "2025-07-25T16:00:00+00:00",
+        "rain_mm": 2.03,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p18-1-0",
+        "station_id": "s1",
+        "start": "2025-07-25T12:07:00+00:00",
+        "end": "2025-07-25T13:07:00+00:00",
+        "rain_mm": 6.51,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p18-1-1",
+        "station_id": "s1",
+        "start": "2025-07-25T15:07:00+00:00",
+        "end": "2025-07-25T16:07:00+00:00",
+        "rain_mm": 8.68,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p18-2-0",
+        "station_id": "s2",
+        "start": "2025-07-25T12:14:00+00:00",
+        "end": "2025-07-25T13:14:00+00:00",
+        "rain_mm": 11.9,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p18-2-1",
+        "station_id": "s2",
+        "start": "2025-07-25T15:14:00+00:00",
+        "end": "2025-07-25T16:14:00+00:00",
+        "rain_mm": 8.21,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p18-3-0",
+        "station_id": "s3",
+        "start": "2025-07-25T12:21:00+00:00",
+        "end": "2025-07-25T13:21:00+00:00",
+        "rain_mm": 6.25,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p18-3-1",
+        "station_id": "s3",
+        "start": "2025-07-25T15:21:00+00:00",
+        "end": "2025-07-25T16:21:00+00:00",
+        "rain_mm": 10.82,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p19-0-0",
+        "station_id": "s0",
+        "start": "2025-07-28T12:00:00+00:00",
+        "end": "2025-07-28T13:00:00+00:00",
+        "rain_mm": 1.82,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p19-0-1",
+        "station_id": "s0",
+        "start": "2025-07-28T15:00:00+00:00",
+        "end": "2025-07-28T16:00:00+00:00",
+        "rain_mm": 4.5,
+        "time_error_minutes": 0,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p19-1-0",
+        "station_id": "s1",
+        "start": "2025-07-28T12:07:00+00:00",
+        "end": "2025-07-28T13:07:00+00:00",
+        "rain_mm": 11.55,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p19-1-1",
+        "station_id": "s1",
+        "start": "2025-07-28T15:07:00+00:00",
+        "end": "2025-07-28T16:07:00+00:00",
+        "rain_mm": 2.79,
+        "time_error_minutes": 2,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p19-2-0",
+        "station_id": "s2",
+        "start": "2025-07-28T12:14:00+00:00",
+        "end": "2025-07-28T13:14:00+00:00",
+        "rain_mm": 1.5,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p19-2-1",
+        "station_id": "s2",
+        "start": "2025-07-28T15:14:00+00:00",
+        "end": "2025-07-28T16:14:00+00:00",
+        "rain_mm": 8.06,
+        "time_error_minutes": 4,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p19-3-0",
+        "station_id": "s3",
+        "start": "2025-07-28T12:21:00+00:00",
+        "end": "2025-07-28T13:21:00+00:00",
+        "rain_mm": 3.76,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      },
+      {
+        "pulse_id": "p19-3-1",
+        "station_id": "s3",
+        "start": "2025-07-28T15:21:00+00:00",
+        "end": "2025-07-28T16:21:00+00:00",
+        "rain_mm": 8.87,
+        "time_error_minutes": 6,
+        "quality": "valid"
+      }
+    ],
+    "stations": [
+      {
+        "station_id": "s0",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "station_id": "s1",
+        "x": 1000,
+        "y": 300
+      },
+      {
+        "station_id": "s2",
+        "x": 2000,
+        "y": 0
+      },
+      {
+        "station_id": "s3",
+        "x": 3000,
+        "y": 300
+      }
+    ],
+    "gaps": [
+      {
+        "gap_id": "g1",
+        "station_id": "s1",
+        "start": "2025-06-10T13:00:00+00:00",
+        "end": "2025-06-10T18:00:00+00:00"
+      }
+    ],
+    "notes": [
+      {
+        "note_id": "n1",
+        "process_ref": "manual-1",
+        "text": "人工标记的首场连续降雨"
+      }
+    ]
+  },
+  "metadata": {
+    "kind": "本地合成领域资料",
+    "cutoff": "2025-09-09T00:00:00+00:00",
+    "manual_process_members": {
+      "manual-1": [
+        "p0-0-0",
+        "p0-1-0"
+      ]
+    }
+  }
+}

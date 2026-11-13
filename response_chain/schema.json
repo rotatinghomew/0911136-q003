@@ -1,0 +1,47 @@
+{
+  "pulses": {
+    "keys": [
+      "pulse_id"
+    ],
+    "columns": [
+      "pulse_id",
+      "station_id",
+      "start",
+      "end",
+      "rain_mm",
+      "time_error_minutes",
+      "quality"
+    ]
+  },
+  "stations": {
+    "keys": [
+      "station_id"
+    ],
+    "columns": [
+      "station_id",
+      "x",
+      "y"
+    ]
+  },
+  "gaps": {
+    "keys": [
+      "gap_id"
+    ],
+    "columns": [
+      "gap_id",
+      "station_id",
+      "start",
+      "end"
+    ]
+  },
+  "notes": {
+    "keys": [
+      "note_id"
+    ],
+    "columns": [
+      "note_id",
+      "process_ref",
+      "text"
+    ]
+  }
+}
