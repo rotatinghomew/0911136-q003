@@ -2,3 +2,13 @@
 name = "response-chain-analysis"
 version = "0.1.0"
 requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools==75.3.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["response_chain"]
+
+[tool.setuptools.package-data]
+response_chain = ["schema.json"]

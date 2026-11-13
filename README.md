@@ -4,7 +4,7 @@
 
 ## 环境
 
-Python 3.11 及以上，仅使用标准库。`Dockerfile` 使用本机已备好的 Linux Python 环境，依赖清单无第三方项。源码和测试都无需访问外部服务。
+Python 3.11 及以上，业务运行仅使用标准库。构建工具及其依赖完整固定在 `requirements-build.txt`；先用 `python3 -m pip install -r requirements-build.txt` 安装。源码和业务测试无需访问外部服务，首次安装构建依赖需要访问 Python 包仓库。
 
 ## 当前摘要
 
@@ -33,13 +33,14 @@ python3 -m response_chain.runner --source-url http://127.0.0.1:8765 --output /tm
 ```sh
 python3 -m unittest discover -s tests -t . -v
 python3 -m compileall -q response_chain tests
+python3 -m build --wheel --no-isolation
 ```
 
 测试覆盖现有领域摘要、非法引用、真实 HTTP 换代拒绝、表清单内容核验及结果保存。展示现有产品可直接运行上述摘要命令，不需要回放历史日志。扩展分析时应同步说明新增能力的实际运行入口，保留现行摘要调用。
 
 ## 容器运行
 
-本机已有 Dockerfile 所引用的基础镜像。构建与运行实际摘要：
+Dockerfile 固定官方 Python 3.11.14 slim-bookworm 镜像摘要，不依赖本机私有镜像；首次构建需下载基础镜像和固定构建工具。构建与运行实际摘要：
 
 ```sh
 docker build -t local/response-chain .
