@@ -28,6 +28,30 @@ class ApplicationTests(unittest.TestCase):
         self.assertEqual(summarize(self.data["tables"]), summarize(snapshot.tables))
         self.assertEqual(set(self.schema), set(snapshot.evidence))
 
+    def test_catalog_survives_http_and_keeps_metadata_notes(self):
+        with serve(self.repository) as address:
+            snapshot = SourceClient(address).read()
+        summary = summarize(snapshot.tables, metadata=snapshot.metadata)
+        catalog = summary["catalog"]
+        self.assertEqual(self.data["metadata"], snapshot.metadata)
+        note = catalog["notes"][0]
+        self.assertEqual("resolved", note["status"])
+        self.assertEqual(catalog["processes"][0]["process_id"], note["process_ids"][0])
+
+    def test_revision_across_generation_preserves_old_catalog(self):
+        with serve(self.repository) as address:
+            old = summarize(SourceClient(address).read().tables)
+        before = json.dumps(old, sort_keys=True)
+        revised = copy.deepcopy(self.data)
+        revised["generation"] += "-revised"
+        revised["tables"]["pulses"][0]["quality"] = "withdrawn"
+        self.repository.replace(revised)
+        with serve(self.repository) as address:
+            new = summarize(SourceClient(address).read().tables)
+        # 旧摘要不因新代替换而被改写，便于沿革比较。
+        self.assertEqual(before, json.dumps(old, sort_keys=True))
+        self.assertNotEqual(old["catalog"]["processes"], new["catalog"]["processes"])
+
     def test_stale_generation_is_rejected_by_actual_http(self):
         with serve(self.repository) as address:
             client = SourceClient(address)

@@ -14,7 +14,32 @@ Python 3.11 及以上，业务运行仅使用标准库。构建工具及其依�
 python3 -m response_chain.runner --output /tmp/response_chain-summary.json
 ```
 
-当前能力是源码 `analysis.py` 定义的摘要，不会自动给出其他统计推断。输出中的 scope 说明边界，sources 记录资料依据。
+当前能力是源码 `analysis.py` 定义的摘要，不会自动给出其他统计推断。输出中的 scope 说明边界，sources 记录资料依据。摘要中的 `catalog` 是跨站过程目录；过程按绝对时间分段，缺测不作为过程结束证据，不按雨量排序。
+
+## 跨站过程目录与形态检索
+
+分段与合并阈值由使用者配置；未知配置项会被拒绝。
+
+```sh
+python3 -m response_chain.runner \
+  --config config.json \
+  --search manual-1 \
+  --output /tmp/response_chain-search.json
+```
+
+`config.json` 可含 `dry_gap_minutes`、`clock_offset_minutes`、`missing_bridge_minutes`、`include_suspect`，缺省值见 `docs/data-contract.md`。检索按持续时间、移动次序、空间覆盖与起止形态排序；每题都说明依据，并列出因覆盖不同而无法比较的维度。`--weights` 和 `--scales` 调整维度权重与容差，`--same-geometry` 只比较观测站集合完全一致的过程，`--limit` 控制返回条数。
+
+## 资料修订沿革
+
+先保存旧代报告，再用新代资料与它比较：
+
+```sh
+python3 -m response_chain.runner --dataset old.json --output /tmp/old-report.json
+python3 -m response_chain.runner --dataset new.json --lineage /tmp/old-report.json \
+  --output /tmp/lineage.json
+```
+
+沿革报告给出过程级的 `unchanged`/`revised`/`split`/`disappeared`、合并到单一过程的旧过程，以及人工备注标签的对应变化。两代分段配置不同时，报告会显式提示差异可能来自配置。
 
 ## 分开运行供数与应用
 
@@ -36,7 +61,7 @@ python3 -m compileall -q response_chain tests
 python3 -m build --wheel --no-isolation
 ```
 
-测试覆盖现有领域摘要、非法引用、真实 HTTP 换代拒绝、表清单内容核验及结果保存。展示现有产品可直接运行上述摘要命令，不需要回放历史日志。扩展分析时应同步说明新增能力的实际运行入口，保留现行摘要调用。
+测试覆盖现有领域摘要、非法引用、真实 HTTP 换代拒绝、表清单内容核验及结果保存；另覆盖跨站分段的跨午夜、干旱与缺测边界、配置校验、形态检索依据及跨代沿革。展示现有产品可直接运行上述摘要命令，不需要回放历史日志。扩展分析时应同步说明新增能力的实际运行入口，保留现行摘要调用。
 
 ## 容器运行
 

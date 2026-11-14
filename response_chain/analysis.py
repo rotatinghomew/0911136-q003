@@ -1,6 +1,9 @@
-"""整理各站原始湿润区间与明确缺测。"""
+"""整理各站原始湿润区间与明确缺测，并建立跨站过程目录。"""
+
 from collections import defaultdict
 from datetime import datetime
+
+from .processes import build_catalog
 
 
 def station_intervals(tables):
@@ -20,6 +23,9 @@ def station_intervals(tables):
     return dict(sorted(grouped.items()))
 
 
-def summarize(tables):
+def summarize(tables, metadata=None, config=None):
+    """现行摘要保留独立区间统计，并新增跨站过程目录。"""
+    catalog = build_catalog(tables, config=config, metadata=metadata or {})
     return {"station_intervals": station_intervals(tables), "notes": tables["notes"],
-            "scope": "独立原始区间摘要，不表示跨站统一过程"}
+            "catalog": catalog,
+            "scope": "独立原始区间摘要，并附跨站统一过程目录；过程按绝对时间分段，不按雨量排序"}

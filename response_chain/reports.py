@@ -8,9 +8,11 @@ from pathlib import Path
 from .datasource import canonical, digest
 
 
-def package_report(snapshot, summary):
+def package_report(snapshot, summary, extras=None):
     content = {"generation": snapshot.generation, "sources": snapshot.evidence,
                "summary": summary, "metadata": snapshot.metadata}
+    if extras:
+        content.update(extras)
     return {"report_id": digest(content), **content}
 
 
